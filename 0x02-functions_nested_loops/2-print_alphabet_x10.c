@@ -19,15 +19,3 @@ void print_alphabet_x10(void)
 		_putchar('\n');
 	};
 }
-
-/**
-* main - calls alphabet function
-*
-* Return: 0 as the terminator
-*/
-
-int main(void)
-{
-	print_alphabet_x10();
-	return (0);
-}
