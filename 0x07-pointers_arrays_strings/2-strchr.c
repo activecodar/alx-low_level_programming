@@ -12,7 +12,7 @@
 char *_strchr(char *s, char c)
 {
 	int temp_counter;
-	
+
 	while (temp_counter != 0)
 	{
 		temp_counter = *s++;
