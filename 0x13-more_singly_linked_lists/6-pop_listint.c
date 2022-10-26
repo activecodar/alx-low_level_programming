@@ -9,7 +9,7 @@
 int pop_listint(listint_t **head)
 {
 	listint_t *temp_head;
-	int return_data;
+	int rtn_data;
 
 	if (head == NULL)
 	{
@@ -18,9 +18,9 @@ int pop_listint(listint_t **head)
 	else
 	{
 		temp_head = *head;
-		return_data = (*head)->n;
+		rtn_data = (*head)->n;
 		*head = (*head)->next;
 		free(temp_head);
-		return (return_data);
+		return (rtn_data);
 	}
 }
